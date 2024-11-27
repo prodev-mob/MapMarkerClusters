@@ -8,5 +8,8 @@ target 'clusterUser' do
   # Pods for clusterUser
 
   pod 'GoogleMaps', '~> 7.3'
+  pod 'GooglePlaces'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 
 end

@@ -18,3 +18,4 @@ class POIItem: NSObject, GMUClusterItem {
         self.marker = marker
   }
 }
+
